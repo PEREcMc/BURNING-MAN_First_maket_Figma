@@ -1,0 +1,182 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans&display=swap');
+
+
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+
+body {
+	font-family: "Anton", "Sens-serif";
+	font-size: 16px;
+}
+
+*{box-sizing: border-box;}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+}
+h2 {
+	font-size: 50px;
+	margin-bottom: 58px;
+}
+h3 {
+	font-size: 25px;
+	margin-bottom: 32px;
+}
+a {
+	text-decoration: none;
+}
+.header {
+	background: url(../img/header-bg.jpg) no-repeat center top/cover;
+	padding-top: 57px;
+	color: #fff;
+	padding-bottom: 322px;
+}
+
+.logo {
+	margin-right: 69px;
+}
+
+ul, li {
+	display: block;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto; 	/* позиционирование по центру */
+
+}
+header a {
+	color: #FFFFFF;
+}
+.nav a:hover{
+	text-decoration: underline;
+	text-decoration-color: rgb(240, 183, 28);
+	transition: ease-in 0.3s;
+	text-decoration-thickness: 3px;
+}
+.tel:hover {
+	font-size: 1.5rem;
+	text-decoration: wavy;
+	
+}
+.menu {
+	display: flex;
+}
+.menu li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 14px;
+	letter-spacing: 0.1em;
+}
+.menu li {
+	margin: 0 40px 0 0;
+}
+.tel {
+	font-size: 17px;
+	text-decoration: none;
+	margin-left: auto;
+	letter-spacing: 0.1em;
+}
+.nav {
+	display: flex;
+	align-items: center;
+}
+
+.offer {
+	text-transform: uppercase;
+	margin-top: 216px;
+}
+.offer p {
+	font-size: 30px;
+	letter-spacing: 0.1em;
+	padding: 7px 0;
+}
+.offer h1 {
+	font-size: 100px;
+	margin-bottom: 19px;
+	margin-top: -9px;
+	padding: 23.5px 0;
+	letter-spacing: 0.02em;
+	
+}
+.btn {
+	display: block;
+	font-size: 17px;
+	letter-spacing: 0.1em;
+	text-align: center;
+	padding: 17px 47px;
+	border: 1px solid #fff;
+	width: 238px;
+
+	transition: all 0.5s ease;
+}
+.btn:hover {	
+	background: linear-gradient(105.89deg, rgba(0, 0, 0, 0.37) 5.05%, rgba(0, 0, 0, 0.15) 112.97%), url(burning_man_fest_110420.);
+	color: rgb(240, 183, 28);
+}
+
+.description {
+	display: flex;
+	justify-content: space-between;
+}
+
+.description p {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+	text-align: justify;
+	line-height: 1.62em;
+}
+
+.desc-left, .desc-right {
+	width: 567px;
+}
+
+section {
+	padding-top: 113px;
+}
+
+.gallery {
+	margin-top: 67px;
+	display: flex;
+	justify-content: space-between;
+}
+.gallery img {
+	transition: all 0.5s ease;
+}
+.gallery img:hover {
+	box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+	transform: scale(1.1);
+}
+.footer-text {
+	font-size: 17px;
+	font-family: "Open Sans", sans-serif;
+	display: flex;
+	padding: 114px 0;
+	display: block;
+}
+.footer-text p {
+	color: saddlebrown;
+	text-shadow: 1px 1px 20px rgba(238, 129, 5, 0.76);
+	padding-bottom: 30px;
+}
+.footer-text p>span {
+	text-shadow: none;
+} 	
